@@ -1,0 +1,2 @@
+# Heatmap-of-crime-in-San-Francisco
+This Python script uses the Folium library to create a heatmap of geographic data from a CSV file called 'train.csv'. It reads the file into a pandas DataFrame, extracts the 'Y' and 'X' columns (latitude and longitude), and creates a Folium map centered on the first data point. The script then adds a heatmap layer to the map using the first 50,000 data points, with a radius of 15, and saves the map as an HTML file called 'abc.html'.
